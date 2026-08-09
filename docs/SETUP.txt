@@ -1,0 +1,33 @@
+Eden Emulator - Installation & Setup Guide
+============================================
+
+QUICK START
+1. Download Eden Emulator from this repository
+2. Extract to any folder (no installation needed)
+3. Place prod.keys and title.keys in the keys/ folder
+4. Place firmware files in the firmware/ folder
+5. Add your game dumps to the games/ folder
+6. Run Eden.exe
+
+PROD KEYS SETUP
+- Dump keys from your own Nintendo Switch console
+- Place prod.keys in: Eden/keys/prod.keys
+- Place title.keys in: Eden/keys/title.keys
+- Keys cannot be shared legally - you must dump your own
+
+FIRMWARE SETUP
+- Dump firmware from your own Switch console
+- Place firmware files in: Eden/firmware/
+- Supported firmware: 18.0.0 and later
+- See eden emulator prod keys and firmware setup guide 2026 for details
+
+SUPPORTED PLATFORMS
+- Windows 10/11 (64-bit) - Vulkan 1.3+ required
+- Linux (Ubuntu 22.04+) - Vulkan 1.3+ required
+- Android (ARM64) - Snapdragon 865+ recommended
+- Steam Deck - optimized controller profile included
+
+GAME COMPATIBILITY
+- 3,200+ games tested and playable
+- Check compatibility list on GitHub wiki
+- Popular titles: Zelda TOTK, Mario Odyssey, Pokemon, Smash Bros

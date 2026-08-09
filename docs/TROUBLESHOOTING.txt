@@ -1,0 +1,38 @@
+Eden Emulator - Troubleshooting Guide
+=======================================
+
+EDEN EMULATOR CRASHING WHEN LAUNCHING GAME
+1. Update GPU drivers (NVIDIA 560.x, AMD 24.8.x)
+2. Switch GPU backend to Vulkan if using OpenGL
+3. Delete shader cache and recompile
+4. Verify prod.keys and firmware are correctly placed
+5. Check game dump integrity (verify hash)
+
+PERFORMANCE ISSUES
+1. Enable Vulkan backend (Settings > Graphics)
+2. Enable async shader compilation
+3. Set resolution scale to 1.0x or lower
+4. Close background applications
+5. For Steam Deck: enable FSR in settings
+
+AUDIO ISSUES
+1. Switch audio backend to WASAPI
+2. Increase audio buffer size in settings
+3. Disable audio stretching if audio crackles
+
+INPUT ISSUES
+1. Check controller is detected in Windows
+2. Reconfigure controller in Settings > Input
+3. Increase deadzone if stick drift occurs
+4. For Steam Deck: use the optimized controller profile
+
+EDEN EMULATOR PROD KEYS NOT FOUND
+1. Ensure keys are in the correct folder: Eden/keys/
+2. File names must be exactly: prod.keys and title.keys
+3. Keys must be dumped from your own console
+4. See eden emulator prod keys reddit for community help
+
+FIRMWARE NOT DETECTED
+1. Place firmware files in Eden/firmware/
+2. Firmware must be version 18.0.0 or later
+3. Verify firmware files are not corrupted

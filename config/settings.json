@@ -1,0 +1,32 @@
+{
+    "graphics": {
+        "backend": "vulkan",
+        "resolution_scale": 1.0,
+        "vsync": true,
+        "frame_limit": 60,
+        "shader_cache": true,
+        "async_shader_compilation": true
+    },
+    "cpu": {
+        "backend": "interpreter",
+        "jit_enabled": false,
+        "cycle_accuracy": "balanced"
+    },
+    "audio": {
+        "backend": "wasapi",
+        "sample_rate": 48000,
+        "volume": 100
+    },
+    "input": {
+        "controller_deadzone": 0.15,
+        "motion_controls": true,
+        "rumble": true
+    },
+    "system": {
+        "firmware_version": "18.0.0",
+        "keys_path": "keys/",
+        "firmware_path": "firmware/",
+        "nand_path": "nand/",
+        "sdmc_path": "sdmc/"
+    }
+}
