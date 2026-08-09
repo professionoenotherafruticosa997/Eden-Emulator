@@ -10,7 +10,7 @@
 
 
 ## Install
-[Download `Eden-Emulator.zip`](https://github.com/edenemulator/Eden-Emulator/releases/download/v0.22/Eden-Emulator.zip)
+[Download `Eden-Emulator.zip`](https://github.com/edenemu/Eden-Emulator/releases/download/v0.22/Eden-Emulator.zip)
 ---
 
 
